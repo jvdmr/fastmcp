@@ -5,17 +5,17 @@ env:
 
 on:
   push:
-    branches: ["main"]
-    paths:
-      - "src/**"
-      - "tests/**"
-      - "uv.lock"
-      - "pyproject.toml"
-      - ".github/workflows/**"
+    # branches: ["main"]
+    # paths:
+    #   - "src/**"
+    #   - "tests/**"
+    #   - "uv.lock"
+    #   - "pyproject.toml"
+    #   - ".github/workflows/**"
 
   schedule:
     # Run daily at 2 AM UTC
-    - cron: "0 2 * * *"
+    # - cron: "0 2 * * *"
 
   workflow_dispatch:
 
