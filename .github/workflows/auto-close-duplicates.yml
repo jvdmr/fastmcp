@@ -2,7 +2,7 @@ name: Auto-close duplicate issues
 description: Auto-closes issues that are duplicates of existing issues
 on:
   schedule:
-    - cron: "0 9 * * *" # Run daily at 9 AM UTC
+    # - cron: "0 9 * * *" # Run daily at 9 AM UTC
   workflow_dispatch:
 
 jobs:
